@@ -1,0 +1,12 @@
+{
+  "issuer": "https://oidc.svasys.com",
+  "jwks_uri": "https://oidc.svasys.com/jwks.json",
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["ES256"],
+  "response_types_supported": ["id_token"],
+  "claims_supported": [
+    "sub", "iss", "aud", "exp", "iat",
+    "validation_score", "validation_attest_hash",
+    "validation_attest_src", "validation_attest_ts"
+  ]
+}
